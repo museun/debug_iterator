@@ -5,11 +5,9 @@ authors = ["museun <museun@outlook.com>"]
 edition = "2018"
 
 [dependencies]
-log = { version = "0.4.6" , optional = true }
-
-[dev-dependencies]
-env_logger = "0.6.0"
+log = { version = "0.4.7", optional = true }
 
 [features]
 default = []
+serialize = ["serde"]
 logging = ["log"]
